@@ -8,18 +8,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
 
 <header class="site">
   <div class="container nav">
-    <a class="brand" href="index.html">
-  <svg class="mark" viewBox="0 0 64 64" aria-hidden="true">
-    <circle cx="32" cy="32" r="30" fill="#EAF1FE"/>
-    <path d="M32 40c-6-9-16-12-24-11 6 3 9 7 11 12-5-2-9-1-12 1 7 0 12 3 16 8 3-4 6-6 9-7 3 1 6 3 9 7 4-5 9-8 16-8-3-2-7-3-12-1 2-5 5-9 11-12-8-1-18 2-24 11z" fill="#1E2A6E"/>
-    <circle cx="32" cy="22" r="3.4" fill="#F5B82E"/>
-  </svg><span class="name">Wings<small>MELAKA</small></span></a>
+    <a class="brand" href="index.html"><img class="logo-img" src="assets/logo.png" alt="Wings Melaka" /></a>
     <nav class="main">
       <div class="nav-item"><a href="index.html">Home</a></div>
       <div class="nav-item"><a href="about.html">About <span class="caret">▾</span></a>
@@ -27,7 +23,7 @@
           <a href="about.html#history">How It All Started</a>
           <a href="about.html#mission">Mission, Vision &amp; Values</a>
           <a href="about.html#name">Our Name</a>
-          <a href="about.html#board">Board &amp; Staff</a>
+          <a href="about.html#board">Board &amp; Team</a>
           <a href="about.html#testimonials">Testimonials</a>
         </div>
       </div>
@@ -51,7 +47,6 @@
         <div class="dropdown">
           <a href="get-involved.html#donate">Donate</a>
           <a href="get-involved.html#sponsor">Sponsor a Child</a>
-          <a href="get-involved.html#volunteer">Be a Volunteer</a>
         </div>
       </div>
       <div class="nav-item"><a href="contact.html">Contact</a></div>
@@ -65,7 +60,7 @@
       <a href="about.html#history">How It All Started</a>
       <a href="about.html#mission">Mission, Vision &amp; Values</a>
       <a href="about.html#name">Our Name</a>
-      <a href="about.html#board">Board &amp; Staff</a>
+      <a href="about.html#board">Board &amp; Team</a>
       <a href="about.html#testimonials">Testimonials</a>
     </div></div>
     <div class="m-group"><span>Services</span><div class="m-sub">
@@ -83,7 +78,6 @@
     <div class="m-group"><span>Get Involved</span><div class="m-sub">
       <a href="get-involved.html#donate">Donate</a>
       <a href="get-involved.html#sponsor">Sponsor a Child</a>
-      <a href="get-involved.html#volunteer">Be a Volunteer</a>
     </div></div>
     <a href="contact.html">Contact</a>
     <a class="nav-cta" href="get-involved.html#donate">Donate</a>
@@ -125,7 +119,7 @@
   <div class="grid-3">
     <article class="card"><div class="ico ic-sky">🧸</div><h3>Early Intervention Programme</h3><p>A friendly, safe and stimulating environment where parents and children learn together, guided by individualised education plans.</p><span class="age">Ages 0–6 · EIP</span></article>
     <article class="card"><div class="ico ic-amber">📚</div><h3>School-Age Programme</h3><p>School-readiness classes preparing children for formal schooling, building on the foundations of early intervention.</p><span class="age">Ages 5–12 · SAP</span></article>
-    <article class="card"><span class="badge-closed">Temporarily closed</span><div class="ico ic-green">🌱</div><h3>Young Adults Programme</h3><p>Life and employment skills helping young adults move toward independent, supported living.</p><span class="age">Ages 18–25 · YAP</span></article>
+    <article class="card"><span class="badge-closed">Closed</span><div class="ico ic-green">🌱</div><h3>Young Adults Programme</h3><p>Life and employment skills helping young adults move toward independent, supported living.</p><span class="age">Ages 18–25 · YAP</span></article>
     <article class="card"><div class="ico ic-purple">🧩</div><h3>Toy & Resource Library</h3><p>Toys on loan to all children with learning differences — whether enrolled, graduated, or awaiting placement.</p><span class="age">Since 1998 · Library</span></article>
     <article class="card"><div class="ico ic-pink">💬</div><h3>Counselling / Family Therapy</h3><p>A space for parents and family members to talk things through with a counsellor and find support.</p><span class="age">Since 2008 · Counselling</span></article>
     <article class="card"><div class="ico ic-teal">🤝</div><h3>Parent Support</h3><p>Support groups and coffee sessions that build friendship, knowledge, and encouragement among parents.</p><span class="age">Since 1999 · Parent Support</span></article>
@@ -141,10 +135,9 @@
 
 <section class="section cream"><div class="container">
   <div class="section-head"><div class="kicker">Get involved</div><h2>Help us make a difference</h2><p>Your support — whether time, skills, or giving — helps a child take their rightful place in society.</p></div>
-  <div class="grid-3">
+  <div class="grid-3" style="grid-template-columns:repeat(2,1fr);max-width:760px;margin:0 auto">
     <div class="inv"><div class="ico ic-amber">💛</div><h3>Donate</h3><p>Every contribution directly supports our programmes and the families who depend on them.</p><a href="contact.html" class="btn btn-primary btn-sm">Contact us to give</a></div>
     <div class="inv"><div class="ico ic-sky">🎓</div><h3>Sponsor a Child</h3><p>Walk alongside one child's journey and help cover the cost of their learning and care.</p><a href="contact.html" class="btn btn-ghost btn-sm">Enquire</a></div>
-    <div class="inv"><div class="ico ic-green">🙌</div><h3>Be a Volunteer</h3><p>Teaching, transport, making materials, photography — there's a place for your skills here.</p><a href="get-involved.html#volunteer" class="btn btn-ghost btn-sm">Volunteer form</a></div>
   </div>
 </div></section>
 </main>
@@ -160,7 +153,7 @@
     <circle cx="32" cy="22" r="3.4" fill="#F5B82E"/>
   </svg><span class="name" style="font-size:22px">Wings Melaka</span></div>
         <p class="desc">Making a difference in the lives of people with special needs and their families by providing learning opportunities that will enable them to achieve their full potential.</p>
-        <div class="socials"><a href="#" title="Instagram">IG</a><a href="#" title="Facebook">f</a></div>
+        <div class="socials"><a href="https://www.instagram.com/wingsmelaka/" target="_blank" rel="noopener" title="Instagram"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 2.2c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.43-.36-1.06-.41-2.23C3.2 15.58 3.2 15.2 3.2 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2Zm0 1.8c-3.15 0-3.51.01-4.74.07-.9.04-1.39.19-1.71.32-.43.16-.74.36-1.06.68-.32.32-.52.63-.68 1.06-.13.32-.28.81-.32 1.71-.06 1.23-.07 1.59-.07 4.16s.01 2.93.07 4.16c.04.9.19 1.39.32 1.71.16.43.36.74.68 1.06.32.32.63.52 1.06.68.32.13.81.28 1.71.32 1.23.06 1.59.07 4.16.07s2.93-.01 4.16-.07c.9-.04 1.39-.19 1.71-.32.43-.16.74-.36 1.06-.68.32-.32.52-.63.68-1.06.13-.32.28-.81.32-1.71.06-1.23.07-1.59.07-4.16s-.01-2.93-.07-4.16c-.04-.9-.19-1.39-.32-1.71a2.85 2.85 0 0 0-.68-1.06 2.85 2.85 0 0 0-1.06-.68c-.32-.13-.81-.28-1.71-.32C14.93 4.01 14.57 4 12 4Zm0 3.06A4.94 4.94 0 1 1 7.06 12 4.94 4.94 0 0 1 12 7.06Zm0 1.8A3.14 3.14 0 1 0 15.14 12 3.14 3.14 0 0 0 12 8.86Zm5.14-1.13a1.15 1.15 0 1 1-1.15-1.15 1.15 1.15 0 0 1 1.15 1.15Z"/></svg></a><a href="https://www.facebook.com/p/Wings-Melaka-100063225071475/" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12Z"/></svg></a></div>
       </div>
       <div>
         <h4>Explore</h4>
