@@ -112,11 +112,16 @@
     </div>
     <div>
       <h2 style="font-size:24px;margin-bottom:20px">Send an enquiry</h2>
-      <form class="form" onsubmit="event.preventDefault(); alert('Thank you! Form submission will be connected before launch.');">
-        <div class="field"><label>Name</label><input required /></div>
-        <div class="field"><label>Email</label><input type="email" required /></div>
-        <div class="field"><label>Message</label><textarea rows="5" required></textarea></div>
+      <form class="form" data-web3forms action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY" />
+        <input type="hidden" name="subject" value="New enquiry — Wings Melaka website" />
+        <input type="hidden" name="from_name" value="Wings Melaka website" />
+        <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
+        <div class="field"><label>Name</label><input name="Name" required /></div>
+        <div class="field"><label>Email</label><input type="email" name="email" required /></div>
+        <div class="field"><label>Message</label><textarea name="Message" rows="5" required></textarea></div>
         <button type="submit" class="btn btn-primary">Send message</button>
+        <div class="form-status" role="status" aria-live="polite"></div>
       </form>
     </div>
   </div>
