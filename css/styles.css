@@ -258,21 +258,21 @@ blockquote footer { margin-top: 8px; font-size: 14px; font-weight: 600; font-sty
 .svc .since { display: inline-block; background: var(--cream); border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; font-size: 13px; font-weight: 600; color: var(--gold-deep); margin-bottom: 16px; }
 
 /* ---------- footer ---------- */
-footer.site { background: linear-gradient(180deg, #BFE6FA, #A7D3F2); color: #35426A; padding: 56px 0 28px; font-size: 15px; border-top: 1px solid #93C6EC; }
-.foot-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 40px; padding-bottom: 36px; border-bottom: 1px solid rgba(30, 42, 110, .16); align-items: start; }
-.foot-grid > div:first-child { text-align: center; }
-.foot-grid > div:first-child .brand { justify-content: center; margin-bottom: 4px; }
-.foot-grid > div:first-child .desc { margin-left: auto; margin-right: auto; }
-.foot-grid > div:first-child .socials { justify-content: center; }
-footer .brand img { display: block; height: 150px; width: auto; }
-footer h4 { color: var(--navy); font-family: 'Inter', sans-serif; font-size: 14px; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 16px; }
-footer a { display: block; padding: 5px 0; color: var(--navy-soft); transition: .15s; }
+footer.site { background: linear-gradient(180deg, #BFE6FA, #A7D3F2); color: #35426A; padding: 38px 0 20px; font-size: 14px; border-top: 1px solid #93C6EC; }
+.foot-grid { display: grid; grid-template-columns: 1.3fr 1fr 1fr; gap: 32px; padding-bottom: 22px; border-bottom: 1px solid rgba(30, 42, 110, .16); align-items: center; }
+.foot-grid > div { text-align: center; }
+.foot-grid .brand { justify-content: center; margin-bottom: 4px; }
+.foot-grid .desc { margin-left: auto; margin-right: auto; }
+.foot-grid .socials { justify-content: center; }
+footer .brand img { display: block; height: 104px; width: auto; }
+footer h4 { color: var(--navy); font-family: 'Inter', sans-serif; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 12px; }
+footer a { display: block; padding: 4px 0; color: var(--navy-soft); transition: .15s; }
 footer a:hover { color: var(--gold-deep); }
-footer .desc { margin: 8px 0 16px; max-width: 320px; color: #3B487A; }
+footer .desc { margin: 6px auto 14px; max-width: 300px; color: #3B487A; }
 .socials { display: flex; gap: 10px; }
 .socials a { width: 38px; height: 38px; border-radius: 10px; background: #fff; border: 1px solid rgba(30, 42, 110, .12); color: var(--navy); display: flex; align-items: center; justify-content: center; padding: 0; font-weight: 700; }
 .socials a:hover { background: var(--gold); border-color: var(--gold); color: #fff; }
-.copyright { padding-top: 24px; text-align: center; color: #44527D; font-size: 13px; }
+.copyright { padding-top: 18px; text-align: center; color: #44527D; font-size: 13px; }
 
 /* ---------- responsive ---------- */
 @media (max-width: 900px) {
